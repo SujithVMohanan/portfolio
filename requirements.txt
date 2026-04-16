@@ -1,0 +1,4 @@
+pip==26.0.1
+Django==6.0.4
+python-dotenv==1.2.2
+psycopg2-binary==2.9.11
