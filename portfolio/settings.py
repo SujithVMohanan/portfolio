@@ -31,9 +31,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY','')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG',True)
 
-ALLOWED_HOSTS =  os.getenv("ALLOWED_HOSTS").split(",")
-
-
+ALLOWED_HOSTS = [
+    "sujithvm.info",
+    "www.sujithvm.info",
+    "13.126.255.20",
+]
 # Application definition
 
 local_apps=[
