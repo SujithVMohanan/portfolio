@@ -34,7 +34,8 @@ DEBUG = os.environ.get('DEBUG',True)
 ALLOWED_HOSTS = [
     "sujithvm.info",
     "www.sujithvm.info",
-    "13.126.255.20",
+    "localhost",
+    "127.0.0.1",
 ]
 # Application definition
 
